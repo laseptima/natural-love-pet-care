@@ -1,24 +1,79 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- TODO: Set the document title to the name of your application -->
-    <title>Lovable App</title>
-    <meta name="description" content="Lovable Generated Project" />
-    <meta name="author" content="Lovable" />
 
-    <!-- TODO: Update og:title to match your application name -->
-    <meta property="og:title" content="Lovable App" />
-    <meta property="og:description" content="Lovable Generated Project" />
+    <!-- SEO: título y descripción -->
+    <title>Natural Love | Productos de higiene para mascotas en Medellín</title>
+    <meta name="description" content="Natural Love ofrece shampoo, bálsamo y perfume para mascotas, con soluciones para hogar y profesionales del grooming en Medellín, Colombia." />
+    <link rel="canonical" href="https://naturallovepets.com/" />
+
+    <!-- Favicon — usa el logo oficial. Si cambias el archivo, actualiza esta ruta -->
+    <link rel="icon" type="image/png" href="/images/logo_natural_love.png" />
+    <link rel="apple-touch-icon" href="/images/logo_natural_love.png" />
+
+    <!-- Open Graph / Social Preview — logo oficial -->
+    <meta property="og:title" content="Natural Love | Productos de higiene para mascotas en Medellín" />
+    <meta property="og:description" content="Shampoo, bálsamo y perfume para mascotas. Soluciones para hogar y grooming profesional." />
+    <meta property="og:image" content="/images/logo_natural_love.png" />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <meta property="og:locale" content="es_CO" />
 
+    <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@Lovable" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-  </head>
+    <meta name="twitter:title" content="Natural Love | Productos de higiene para mascotas en Medellín" />
+    <meta name="twitter:description" content="Shampoo, bálsamo y perfume para mascotas. Soluciones para hogar y grooming profesional." />
+    <meta name="twitter:image" content="/images/logo_natural_love.png" />
 
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Natural Love",
+      "description": "Productos de higiene para mascotas en Medellín, Colombia",
+      "url": "https://naturallovepets.com",
+      "logo": "/images/logo_natural_love.png",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Medellín",
+        "addressRegion": "Antioquia",
+        "addressCountry": "CO"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+57-319-540-4226",
+        "contactType": "sales"
+      }
+    }
+    </script>
+
+    <!-- Fonts: Sora (headings) + Figtree (body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=Sora:wght@400;600;700&display=swap" rel="stylesheet" />
+
+    <!--
+      ============================================================
+      ANALYTICS — Insertar aquí:
+      
+      Google Analytics (GA4):
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
+      </script>
+
+      Meta Pixel:
+      <script>!function(f,b,e,v,n,t,s){...}(window,document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init','PIXEL_ID');fbq('track','PageView');</script>
+      ============================================================
+    -->
+  </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
