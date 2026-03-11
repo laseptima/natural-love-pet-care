@@ -15,9 +15,9 @@
 
 /* --- IMPORTS DE IMÁGENES DE PRODUCTO ---
  * Cambiar estas rutas si se actualizan las fotos de producto */
-import shampooImg from "@/assets/productos_natural_love_3.jpeg";
-import balsamoImg from "@/assets/productos_natural_love_4.jpeg";
-import perfumeImg from "@/assets/productos_natural_love.jpeg";
+import shampooImg from "@/assets/shampoo.png";
+import balsamoImg from "@/assets/balsamo-acondicionador.png";
+import perfumeImg from "@/assets/lociones.png";
 
 export interface Product {
   id: string;
