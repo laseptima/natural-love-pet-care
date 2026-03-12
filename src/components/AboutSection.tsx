@@ -6,6 +6,10 @@
  * ============================================================
  */
 
+/* Imágenes reales de productos — cambiar aquí si se actualizan */
+import productosRealesImg from "@/assets/productos_natural_love_reales.jpeg";
+import productosReales2Img from "@/assets/productos_natural_love_reales_2.jpeg";
+
 const VALUES = [
   "Amor por las mascotas",
   "Calidad en cada producto",
