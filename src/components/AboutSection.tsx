@@ -86,6 +86,26 @@ const AboutSection = () => {
               ))}
             </div>
           </div>
+
+          {/* Galería de fotos reales — cambiar estas imágenes si se actualizan */}
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="rounded-3xl overflow-hidden shadow-lg">
+              <img
+                src={productosRealesImg}
+                alt="Productos Natural Love en la naturaleza – Shampoo, Bálsamo y Perfume Gold"
+                className="w-full h-auto object-contain"
+                loading="lazy"
+              />
+            </div>
+            <div className="rounded-3xl overflow-hidden shadow-lg">
+              <img
+                src={productosReales2Img}
+                alt="Línea completa Natural Love – Productos para mascotas en entorno natural"
+                className="w-full h-auto object-contain"
+                loading="lazy"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </section>
