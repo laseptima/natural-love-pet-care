@@ -12,10 +12,6 @@
  * ============================================================
  */
 
-/* Imagen de apoyo — cambiar aquí si la foto se actualiza */
-import productosRealesImg from "@/assets/productos_natural_love_reales.jpeg";
-import productosReales2Img from "@/assets/productos_natural_love_reales_2.jpeg";
-
 /** Array de testimonios — editar aquí para agregar o cambiar opiniones */
 const TESTIMONIALS = [
   {
@@ -118,25 +114,6 @@ const TestimonialsSection = () => {
           ))}
         </div>
 
-        {/* Galería de fotos reales — cambiar estas imágenes si se actualizan */}
-        <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-          <div className="rounded-3xl overflow-hidden shadow-lg">
-            <img
-              src={productosRealesImg}
-              alt="Productos Natural Love en la naturaleza – Shampoo, Bálsamo y Perfume Gold"
-              className="w-full h-64 md:h-72 object-cover"
-              loading="lazy"
-            />
-          </div>
-          <div className="rounded-3xl overflow-hidden shadow-lg">
-            <img
-              src={productosReales2Img}
-              alt="Línea completa Natural Love – Productos para mascotas en entorno natural"
-              className="w-full h-64 md:h-72 object-cover"
-              loading="lazy"
-            />
-          </div>
-        </div>
       </div>
     </section>
   );
