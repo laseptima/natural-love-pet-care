@@ -66,7 +66,7 @@ export const PRODUCTS: Product[] = [
       "Ideal para pelajes exigentes",
       "Útil para hogar y grooming",
     ],
-    presentations: ["120 cc", "500 cc", "1000 cc", "Galón"],
+    presentations: ["120 cc", "220 cc", "500 cc", "1000 cc", "Galón x3.75kg"],
     image: balsamoImg,
     ctaType: "balsamo",
     ctaLabel: "Cotizar bálsamo",
