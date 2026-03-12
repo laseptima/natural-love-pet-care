@@ -15,9 +15,9 @@
 
 /* --- IMPORTS DE IMÁGENES DE PRODUCTO ---
  * Cambiar estas rutas si se actualizan las fotos de producto */
-import shampooImg from "@/assets/shampoo.png";
-import balsamoImg from "@/assets/balsamo-acondicionador.png";
-import perfumeImg from "@/assets/lociones.png";
+import shampooImg from "@/assets/shampoo_natural.jpeg";
+import balsamoImg from "@/assets/balsamo_natural.jpeg";
+import perfumeImg from "@/assets/perfume_natural.jpeg";
 
 export interface Product {
   id: string;
@@ -49,7 +49,7 @@ export const PRODUCTS: Product[] = [
       "Ideal para uso frecuente",
       "Disponible en varias presentaciones",
     ],
-    presentations: ["250 cc", "500 cc", "1000 cc", "Galón"],
+    presentations: ["250 cc", "500 cc", "1000 cc", "Galón x3.75kg", "10 kg", "20 kg"],
     image: shampooImg,
     ctaType: "shampoo",
     ctaLabel: "Quiero este producto",
@@ -66,7 +66,7 @@ export const PRODUCTS: Product[] = [
       "Ideal para pelajes exigentes",
       "Útil para hogar y grooming",
     ],
-    presentations: ["120 cc", "500 cc", "1000 cc", "Galón"],
+    presentations: ["120 cc", "220 cc", "500 cc", "1000 cc", "Galón x3.75kg"],
     image: balsamoImg,
     ctaType: "balsamo",
     ctaLabel: "Cotizar bálsamo",
@@ -83,7 +83,7 @@ export const PRODUCTS: Product[] = [
       "Complemento ideal de la rutina de higiene",
       "Imagen premium de marca",
     ],
-    presentations: ["120 cc", "250 cc", "500 cc"],
+    presentations: ["60 cc", "120 cc", "250 cc", "500 cc", "1000 cc", "Galón x3.75kg"],
     image: perfumeImg,
     ctaType: "perfume",
     ctaLabel: "Pedir perfume",

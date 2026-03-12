@@ -11,7 +11,7 @@
 import { openWhatsApp } from "@/lib/whatsapp";
 
 /* Imagen hero — cambiar aquí si la foto se actualiza */
-import heroImg from "@/assets/lociones.png";
+import heroImg from "@/assets/perrito_con_los_productos.jpeg";
 
 const HeroSection = () => {
   return (
@@ -42,9 +42,6 @@ const HeroSection = () => {
                 Ver productos
               </a>
             </div>
-            <p className="mt-6 text-sm text-muted-foreground italic">
-              Hecho con amor para mascotas y con enfoque profesional para resultados confiables.
-            </p>
           </div>
 
           {/* Imagen */}
