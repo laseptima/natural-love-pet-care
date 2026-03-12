@@ -49,7 +49,7 @@ export const PRODUCTS: Product[] = [
       "Ideal para uso frecuente",
       "Disponible en varias presentaciones",
     ],
-    presentations: ["250 cc", "500 cc", "1000 cc", "Galón"],
+    presentations: ["250 cc", "500 cc", "1000 cc", "Galón x3.75kg", "10 kg", "20 kg"],
     image: shampooImg,
     ctaType: "shampoo",
     ctaLabel: "Quiero este producto",
