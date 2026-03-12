@@ -83,7 +83,7 @@ export const PRODUCTS: Product[] = [
       "Complemento ideal de la rutina de higiene",
       "Imagen premium de marca",
     ],
-    presentations: ["120 cc", "250 cc", "500 cc"],
+    presentations: ["60 cc", "120 cc", "250 cc", "500 cc", "1000 cc", "Galón x3.75kg"],
     image: perfumeImg,
     ctaType: "perfume",
     ctaLabel: "Pedir perfume",

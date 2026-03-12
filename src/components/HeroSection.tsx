@@ -42,9 +42,6 @@ const HeroSection = () => {
                 Ver productos
               </a>
             </div>
-            <p className="mt-6 text-sm text-muted-foreground italic">
-              Hecho con amor para mascotas y con enfoque profesional para resultados confiables.
-            </p>
           </div>
 
           {/* Imagen */}

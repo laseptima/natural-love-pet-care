@@ -36,9 +36,6 @@ const Footer = () => (
           <p className="text-sm text-primary-foreground/70 leading-relaxed">
             Natural Love – Cuidado e higiene para mascotas con amor, calidad y confianza.
           </p>
-          <p className="text-xs text-primary-foreground/50 mt-2 italic">
-            Hecho para convertir visitas en conversaciones por WhatsApp.
-          </p>
         </div>
 
         {/* Links */}

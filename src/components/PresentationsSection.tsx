@@ -10,8 +10,8 @@
  */
 
 /* Editar aquí las presentaciones disponibles */
-const HOME_SIZES = ["120 cc", "250 cc", "500 cc", "1000 cc"];
-const PRO_SIZES = ["1000 cc", "Galón", "5 Litros", "20 Litros"];
+const HOME_SIZES = ["60 cc", "120 cc", "220 cc", "250 cc", "500 cc", "1000 cc"];
+const PRO_SIZES = ["1000 cc", "Galón x3.75kg", "10 kg", "20 kg"];
 
 const PresentationsSection = () => {
   return (
