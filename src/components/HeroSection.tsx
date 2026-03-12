@@ -11,7 +11,7 @@
 import { openWhatsApp } from "@/lib/whatsapp";
 
 /* Imagen hero — cambiar aquí si la foto se actualiza */
-import heroImg from "@/assets/lociones.png";
+import heroImg from "@/assets/perrito_con_los_productos.jpeg";
 
 const HeroSection = () => {
   return (
