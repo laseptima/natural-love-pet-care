@@ -12,10 +12,6 @@
  * ============================================================
  */
 
-/* Imagen de apoyo — cambiar aquí si la foto se actualiza */
-import productosRealesImg from "@/assets/productos_natural_love_reales.jpeg";
-import productosReales2Img from "@/assets/productos_natural_love_reales_2.jpeg";
-
 /** Array de testimonios — editar aquí para agregar o cambiar opiniones */
 const TESTIMONIALS = [
   {
