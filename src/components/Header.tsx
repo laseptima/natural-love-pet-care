@@ -35,7 +35,7 @@ const Header = () => {
           <img
             src={logoSrc}
             alt="Natural Love – Productos de higiene para mascotas"
-            className="h-12 md:h-14 w-auto"
+            className="h-16 md:h-20 w-auto"
           />
         </a>
 
