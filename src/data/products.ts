@@ -57,7 +57,7 @@ export const PRODUCTS: Product[] = [
   {
     id: "balsamo",
     category: "Bálsamo",
-    name: "Bálsamo acondicionador",
+    name: "Bálsamo línea Gold",
     description:
       "Ayuda a desenredar, suavizar y mejorar la textura del pelaje, haciendo del baño una experiencia más completa.",
     benefits: [
