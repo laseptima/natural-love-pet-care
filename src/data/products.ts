@@ -40,7 +40,7 @@ export const PRODUCTS: Product[] = [
   {
     id: "shampoo",
     category: "Shampoo",
-    name: "Shampoo para mascotas",
+    name: "Shampoo línea Gold",
     description:
       "Limpieza profunda que ayuda a cuidar la piel y el pelaje, dejando una sensación de frescura, suavidad y bienestar.",
     benefits: [
